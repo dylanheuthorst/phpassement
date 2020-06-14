@@ -1,0 +1,252 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: Calibri;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+.bg{
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+*{
+    margin: 0;
+}
+.bar{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+.sandwichHolder{
+    top: 1%;
+    left: 1%;
+    position: absolute;
+}
+.logo{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+}
+.logotext{
+    font-family: "Brush Script MT";
+    font-size: 60px;
+    font-weight: 600;
+    position: absolute;
+    top: 65%;
+    left: 38%;
+    color: #FFC300;
+}
+.cart{
+    position: absolute;
+    right: 0.2%;
+    top: -0.2%;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background: transparent;
+    border: 0;
+
+}
+.cartp{
+    width: 100%;
+    margin-left: -8%;
+}
+.producttitle{
+    position: absolute;
+    top: 7%;
+    align-items: center;
+    font-family: "brush script mt";
+    font-size: 100px;
+    font-weight: 600;
+    left: 41.5%;
+    color: #FFC300;
+}
+.productHolder{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 12%;
+}
+.pb{
+    width: 33.33%;
+    height: 200px;
+    border-radius: 10px;
+}
+.atc{
+    width: 78%;
+    background-color: #FFC300;
+    float: right;
+    padding: 10px;
+    font-weight: 600;
+    font-family: Calibri;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 3%;
+}
+.pimage{
+    width: 80%;
+    margin-left: 10%;
+    height: 300px;
+}
+.atcb1, .atcb2, .atcb3, .atcb4, .atcb5, .atcb6, .atcb7, .atcb8, .atcb9{
+    width: 14.41%;
+    background-color: #FFC300;
+    padding: 10px;
+    border: 0;
+    height: 39px;
+    font-weight: 600;
+    color: whitesmoke;
+    align-items: center;
+    margin-top: 3%;
+}
+.add{
+    width: 80%;
+    margin-left: 10%;
+}
+.pheader{
+    font-family: "brush script mt";
+    color: #FFC300;
+    text-align: center;
+    font-size: 60px;
+    width: 80%;
+    margin-left: 10%;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.bgp{
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 240vh;
+    object-fit: cover;
+}
+.cartnav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.cartnav a{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    display: block;
+    transition: 0.3s;
+    font-family: Calibri;
+    margin-left: -9%;
+}
+.cartnav .closecart {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.closecart{
+    z-index: 5;
+}
+.cartTable{
+    width: 90%;
+    margin-left: 5%;
+}
+.cartRow{
+    width: 100%;
+    height: 50px;
+}
+.cartRow1{
+    width: 100%;
+    height: 10px;
+}
+.cartPrice{
+    font-family: Calibri;
+    font-size: 15px;
+    width: 70%;
+    font-weight: 600;
+    margin-left: 30%;
+    color: whitesmoke;
+}
+.cartImg{
+    width: 30%;
+    margin-left: 0;
+}
+.cartImage{
+    width: 100%;
+    height: 50px;
+    margin-left: 0;
+    object-fit: cover;
+}
+.total{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 155%;
+    height: 50px;
+}
+.totalRow{
+    width: 100%;
+    position: absolute;
+    top: 2%;
+    left: 5%;
+}
+.totalWriting{
+    width: 70%;
+    color: whitesmoke;
+    font-weight: 600;
+    font-family: Calibri;
+    text-align: right;
+}
+.totalPrice{
+    width: 30%;
+    color: whitesmoke;
+    font-weight: 600;
+    font-family: Calibri;
+    text-align: right;
+}
+.productphoto{
+    position: absolute;
+    top: 7%;
+    left: 33.5%;
+    height: 100px;
+    width: 100px;
+}
