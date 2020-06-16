@@ -14,6 +14,7 @@
     <table class="cartTable" id = "cart7"></table>
     <table class="cartTable" id = "cart8"></table>
     <table class="cartTable" id = "cart9"></table>
+    <button onclick="" class = "pay">Check Out</button>
     <table class = "total">
         <tr class="totalRow">
             <td class="totalWriting">TOTAL:</td>
