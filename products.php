@@ -13,8 +13,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="homepage.php">Home</a>
         <a href="products.php">Products</a>
-        <a href="#">About Us</a>
-        <a href="faq.php">FAQ</a>
+        <a href="aboutus.php">About Us</a>
     </div>
     <div class = "sandwichHolder" onclick="openNav()">
         <div class = "bar"></div>
@@ -23,7 +22,6 @@
     </div>
     <p class="producttitle">Products</p>
     <img class  = "productphoto" src = "photos/plogo.png">
-</header>
 <img class = "bgp" src = "photos/pbg.png">
 <?php include ('cart.php') ?>
 <body>
@@ -110,5 +108,6 @@
 </body>
 
 <footer>
+
 </footer>
 </html>

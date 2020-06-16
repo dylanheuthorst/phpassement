@@ -1,3 +1,4 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 .sidenav {
     height: 100%;
     width: 0;
@@ -5,7 +6,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-image: linear-gradient(whitesmoke, white);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -14,7 +15,7 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: black;
     display: block;
     transition: 0.3s;
     font-family: Calibri;
@@ -39,6 +40,8 @@
     position: absolute;
     top: 0;
     left: 0;
+    height: 170vh;
+    object-fit: cover;
 }
 *{
     margin: 0;
@@ -46,7 +49,7 @@
 .bar{
     width: 35px;
     height: 5px;
-    background-color: black;
+    background-color: #232221;
     margin: 6px 0;
 }
 .sandwichHolder{
@@ -58,7 +61,7 @@
     height: 200px;
     width: 200px;
     position: absolute;
-    top: 35%;
+    top: 15%;
     left: 42%;
 }
 .logotext{
@@ -66,7 +69,7 @@
     font-size: 60px;
     font-weight: 600;
     position: absolute;
-    top: 65%;
+    top: 45%;
     left: 38%;
     color: #FFC300;
 }
@@ -120,6 +123,7 @@
     width: 80%;
     margin-left: 10%;
     height: 300px;
+    margin-top: 2%;
 }
 .atcb1, .atcb2, .atcb3, .atcb4, .atcb5, .atcb6, .atcb7, .atcb8, .atcb9{
     width: 14.41%;
@@ -135,6 +139,7 @@
 .add{
     width: 80%;
     margin-left: 10%;
+    margin-top: -3%;
 }
 .pheader{
     font-family: "brush script mt";
@@ -152,7 +157,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    height: 240vh;
+    height: 200vh;
     object-fit: cover;
 }
 .cartnav {
@@ -162,7 +167,7 @@
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-image: linear-gradient(whitesmoke, white);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -171,7 +176,7 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: whitesmoke;
+    color: Black;
     display: block;
     transition: 0.3s;
     font-family: Calibri;
@@ -205,7 +210,7 @@
     width: 70%;
     font-weight: 600;
     margin-left: 30%;
-    color: whitesmoke;
+    color: black;
 }
 .cartImg{
     width: 30%;
@@ -231,14 +236,14 @@
 }
 .totalWriting{
     width: 70%;
-    color: whitesmoke;
+    color: black;
     font-weight: 600;
     font-family: Calibri;
     text-align: right;
 }
 .totalPrice{
     width: 30%;
-    color: whitesmoke;
+    color: black;
     font-weight: 600;
     font-family: Calibri;
     text-align: right;
@@ -249,4 +254,188 @@
     left: 33.5%;
     height: 100px;
     width: 100px;
+}
+.producttitle1{
+    position: absolute;
+    top: 7%;
+    align-items: center;
+    font-family: "brush script mt";
+    font-size: 100px;
+    font-weight: 600;
+    left: 41%;
+    color: #FFC300;
+}
+.aboutusdesc{
+    font-family: Calibri;
+    color: black;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 7%;
+    font-weight: bold;
+    font-size: 30px;
+}
+.slideshow{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 10%;
+    margin-top: 15%;
+    opacity: 90%;
+}
+.bg2{
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    height: 200vh;
+}
+.alogo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 7%;
+    left: 32%;
+}
+.afooter{
+    background-color: #818181;
+    opacity: 80%;
+    width: 95%;
+    height: 150px;
+    position: absolute;
+    left: 2.5%;
+    bottom: -95%;
+    background-image: url("photos/footerbg.png");
+}
+.footerText{
+    text-align: center;
+    font-size: 24px;
+    font-family: Calibri;
+    font-weight: 500;
+    color: whitesmoke;
+    padding: 5px;
+}
+.footer-social-links{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 1%;
+}
+.footer-social-links a{
+    width: 25px;
+    height: 25px;
+    line-height: 25px !important;
+    position: relative;
+    margin: 0 5px;
+    text-align: center;
+    display: inline-block;
+    color: #111;
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+.footer-social-links a i,
+.footer-social-links a span{
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+.footer-social-links a:before{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #111;
+
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+
+}
+.footer-social-links a:hover{
+    color: #fff;
+}
+.footer-social-links a:hover:before{
+    background: #111;
+}
+.categories{
+    width: 33.33%;
+    height: 355px;
+    float: left;
+    margin-top: 35%;
+}
+.categoryPhotos{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.categoryPhotos:hover{
+    opacity: 90%;
+}
+.categoryTitle1{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: lato, sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    top: 100%;
+    left: 16%;
+}
+.categoryTitle2{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: lato, sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    top: 100%;
+    left: 45%;
+}
+.categoryTitle3{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: lato, sans-serif;
+    color: whitesmoke;
+    position: absolute;
+    top: 100%;
+    left: 69%;
+}
+.pay{
+    width: 80%;
+    margin-left: 10%;
+    padding: 2px;
+    height: 40px;
+    background-color: black;
+    border: 0;
+    border-radius: 2px;
+    color: whitesmoke;
+}
+.link{
+    color: whitesmoke;
+}
+.link:hover{
+    opacity: 40%;
+}
+section{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 7%;
 }
