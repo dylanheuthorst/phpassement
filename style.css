@@ -439,3 +439,36 @@ section{
     margin-left: 10%;
     margin-top: 7%;
 }
+.log{
+    width: 40%;
+    margin-left: 40%;
+    margin-top: 30%;
+}
+.loginform{
+    font-family: Calibri;
+    font-size: 24px;
+    font-weight: bold;
+}
+.input{
+    width: 50%;
+    border-radius: 10px;
+}
+.lbg{
+    width: 100%;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.logbutton{
+    width: 51.5%;
+    color: whitesmoke;
+    background-color: black;
+    border: 0;
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 4%;
+    font-weight: bold;
+    font-family: Calibri;
+}
