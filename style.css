@@ -84,6 +84,9 @@
     border: 0;
 
 }
+.cart:hover{
+    opacity: 80%;
+}
 .cartp{
     width: 100%;
     margin-left: -8%;
@@ -451,7 +454,8 @@ section{
 }
 .input{
     width: 50%;
-    border-radius: 10px;
+    border-radius: 5px;
+    height: 30px;
 }
 .lbg{
     width: 100%;
@@ -471,4 +475,22 @@ section{
     margin-top: 4%;
     font-weight: bold;
     font-family: Calibri;
+    height: 60px;
+}
+.homelogin{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    color: whitesmoke;
+    background-color: #FFC300;
+    height: 40px;
+    width: 90px;
+    border-radius: 5px;
+    border: 0;
+    font-family: Calibri;
+    font-weight: bold;
+    opacity: 80%;
+}
+.homelogin:hover{
+    opacity: 100%;
 }

@@ -7,7 +7,7 @@
     <script src = "animations.js"></script>
     <title>Pet Shop</title>
 </head>
-<?php include ('cart.php') ?>
+<section></section>
 <header>
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -20,6 +20,7 @@
         <div class = "bar"></div>
         <div class = "bar"></div>
     </div>
+    <a href = "loginform.php"><button class = "homelogin">Login</button></a>
 </header>
 <img class = "bg" src = "photos/pbg.png">
 <body>
@@ -34,7 +35,4 @@
     <p class = "categoryTitle3"><a href="products.html" style = "text-decoration: none" class = "link">Rabbit Food</a></p>
 </section>
 </body>
-
-<footer>
-</footer>
 </html>
