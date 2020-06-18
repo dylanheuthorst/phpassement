@@ -19,9 +19,11 @@
 
     $sql = "INSERT INTO logins (ClientID,Name,Username,Email,Password) VALUES (0,'$createname','$createusername','$createemail','$createpwd')";
 
-    if (mysqli_query($con,$sql)){
+    if (!mysqli_query($con,$sql)){
         echo "Not Inserted";
     }
     else{
         echo "Inserted";
     }
+
+    header("refresh:2; url=index.php");
