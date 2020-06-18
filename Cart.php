@@ -156,7 +156,16 @@ if (isset($_GET["action"])){
     <button class = "pay" onclick="openReceipt()">Pay Now</button>
     <div id="receipt" class="myreceipt">
         <a href="javascript:void(0)" class="closebtn" onclick="closeReceipt()">&times;</a>
-        <p>Your Total Comes To $ <?php echo number_format($total, 2); ?></p>
+        <?php
+            if(!empty($_SESSION["cart"])){
+                foreach ($_SESSION["cart"] as $key => $value) {
+                    ?>
+                    <p class="navreceipt"><?php echo $value["item_name"], $value["item_quantity"], $value["product_price"]; ?></p>
+                    }
+                    <?php
+                }    }
+        ?>
+        <p class="navreceipt">Your Total Comes To $ <?php echo number_format($total, 2); ?></p>
     </div>
 
 </div>
