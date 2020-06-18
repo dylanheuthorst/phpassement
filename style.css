@@ -430,6 +430,8 @@
     border: 0;
     border-radius: 2px;
     color: whitesmoke;
+    font-weight: bold;
+    font-family: Calibri;
 }
 .link{
     color: whitesmoke;
@@ -480,7 +482,7 @@ section{
 .homelogin{
     position: absolute;
     top: 1%;
-    right: 1%;
+    right: 0.5%;
     color: whitesmoke;
     background-color: #FFC300;
     height: 40px;
