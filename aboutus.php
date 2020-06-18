@@ -11,7 +11,7 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.php">Home</a>
-        <a href="throwaway/products.php">Products</a>
+        <a href="Cart.php">Products</a>
         <a href="aboutus.php">About Us</a>
     </div>
     <div class = "sandwichHolder" onclick="openNav()">
