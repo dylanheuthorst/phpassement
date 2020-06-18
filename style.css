@@ -379,7 +379,8 @@ h2{
     margin-left: 50px;
 }
 .pay{
-    width: 100%;
+    width: 30%;
+    margin: 35%;
     background-color: black;
     color: whitesmoke;
     font-weight: bold;

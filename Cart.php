@@ -69,7 +69,7 @@ if (isset($_GET["action"])){
         <a href="aboutus.php">About Us</a>
         <a href="loginform.php">Login</a>
     </div>
-    <div id="receipt" class="myrecepit">
+    <div id="receipt" class="myreceipt">
         <a href="javascript:void(0)" class="closebtn" onclick="closeReceipt()">&times;</a>
     </div>
     <div class = "sandwichHolder" onclick="openNav()">
