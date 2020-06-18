@@ -21,7 +21,6 @@
         <div class = "bar"></div>
         <div class = "bar"></div>
     </div>
-    <a href = "loginform.php"><button class = "homelogin">Login</button></a>
 </header>
 <img class = "bg" src = "photos/pbg.png">
 <body>

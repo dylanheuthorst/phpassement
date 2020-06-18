@@ -356,3 +356,6 @@ table, th, tr{
 table th{
     background-color: #efefef;
 }
+table{
+    margin-top: 15%;
+}
