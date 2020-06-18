@@ -24,7 +24,7 @@
 <body>
     <img class = "loginlogo" src="photos/plogo.png">
     <p class = "loginlogotext">Create Acount</p>
-    <form action = "login.php" method = "post" class = "log">
+    <form action = "createdb.php" method = "post" class = "log">
         <p class = "loginform">Name:</p>
         <input type = "text" name = "createusername" class = "input">
         <p class = "loginform">Username:</p>
