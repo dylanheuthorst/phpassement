@@ -349,9 +349,10 @@ table, th, tr{
 }
 .title2{
     text-align: center;
-    color: #66afe9;
-    background-color: #efefef;
-    padding: 2%;
+    color: #FFC300;
+    font-weight: bold;
+    font-family: "Brush Script MT";
+    font-size: 30px;
 }
 table th{
     background-color: #efefef;
@@ -381,7 +382,7 @@ h2{
 .pay{
     width: 30%;
     margin-left: 35%;
-    background-color: black;
+    background-color: #FFC300;
     color: whitesmoke;
     font-weight: bold;
     font-size: 24px;
@@ -394,9 +395,5 @@ h2{
     font-size: 16px;
     margin-left: 2%;
     font-weight: bold;
-}
-.receiptPhoto{
-    width: 30px;
-    height: 30px;
-    margin-left: 2%;
+    text-align: center;
 }

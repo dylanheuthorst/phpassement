@@ -113,7 +113,7 @@ if (isset($_GET["action"])){
     ?>
 
     <div style="clear: both"></div>
-    <h3 class="title2">Shopping Cart Details</h3>
+    <h3 class="title2">Shopping Cart</h3>
     <div class="table-responsive">
         <table class="table table-bordered">
             <tr>
@@ -160,7 +160,8 @@ if (isset($_GET["action"])){
             if(!empty($_SESSION["cart"])){
                 foreach ($_SESSION["cart"] as $key => $value) {
                     ?>
-                    <p class="navreceipt"><img src="<?php echo $value["image"]; ?>" class="receiptPhoto"><?php echo $value["item_name"]?> x<?php echo $value["item_quantity"]?> $<?php echo $value["product_price"]?></p>
+                    <p class="navreceipt"><?php echo $value["item_name"]?> x<?php echo $value["item_quantity"]?> $<?php echo $value["product_price"*"item_quantity"]?></p>
+                    <br>
                     <?php
                 }    }
         ?>
