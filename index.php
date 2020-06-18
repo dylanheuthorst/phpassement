@@ -30,6 +30,7 @@
             <a href="Cart.php">Products</a>
             <a href="aboutus.php">About Us</a>
             <a href="loginform.php">Login</a>
+            <a href="createaccount.php">Create Account</a>
         </div>
         <?php
     }

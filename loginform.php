@@ -32,8 +32,6 @@
         <input type="password" name = "password" class = "input">
         <p class = "loginform"><button class = "logbutton">Login</button></p>
     </form>
-    <a href = "createaccount.php"><p class = "loginform"><button class = "logbutton1">Create Account</button></p></a>
-
 </body>
 
 <footer>

@@ -322,20 +322,6 @@ section{
     left: 45%;
     color: #FFC300;
 }
-.logbutton1{
-    width: 20.5%;
-    margin-left: 40%;
-    margin-top: -10%;
-    color: whitesmoke;
-    background-color: black;
-    border: 0;
-    border-radius: 5px;
-    padding: 4px;
-    margin-top: 4%;
-    font-weight: bold;
-    font-family: Calibri;
-    height: 60px;
-}
 .product{
     border: 1px solid #eaeaec;
     margin: -1px 19px 3px -1px;
