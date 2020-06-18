@@ -11,7 +11,7 @@
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.php">Home</a>
-        <a href="products.php">Products</a>
+        <a href="throwaway/products.php">Products</a>
         <a href="aboutus.php">About Us</a>
     </div>
     <div class = "sandwichHolder" onclick="openNav()">
@@ -30,6 +30,7 @@
         <p class = "loginform">Password:</p>
         <input type="password" name = "pwd" class = "input">
         <p class = "loginform"><button class = "logbutton">Login</button></p>
+        <p class = "loginform"><button class = "logbutton" value = "insert">Create Account</button>
     </form>
     <a href = "createaccount.php"><p class = "loginform"><button class = "logbutton1">Create Account</button></p></a>
 
