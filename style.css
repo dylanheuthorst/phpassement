@@ -21,7 +21,7 @@
     font-family: Calibri;
 }
 .sidenav a:hover {
-    color: #f1f1f1;
+    opacity: 60%;
 }
 .sidenav .closebtn {
     position: absolute;
@@ -356,6 +356,6 @@ table, th, tr{
 table th{
     background-color: #efefef;
 }
-table{
+.col-md-3{
     margin-top: 15%;
 }
