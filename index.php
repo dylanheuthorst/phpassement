@@ -50,9 +50,9 @@
     <div class = "categories"><a href="Cart.php"><img src = "photos/Category1.png" class = "categoryPhotos"></a></div>
     <div class = "categories"><a href="Cart.php"><img src = "photos/category2.png" class = "categoryPhotos"></a></div>
     <div class = "categories"><a href = "Cart.php"><img src = "photos/category3.png" class = "categoryPhotos"></a></div>
-    <p class = "categoryTitle1"><a href="Cart.php" class = "link">Dog Food</a></p>
-    <p class = "categoryTitle2"><a href="Cart.php" class = "link">Cat Food</a></p>
-    <p class = "categoryTitle3"><a href="Cart.php" class = "link">Rabbit Food</a></p>
+    <p class = "categoryTitle1"><a href="Cart.php" style="" class = "link">Dog Food</a></p>
+    <p class = "categoryTitle2"><a href="Cart.php" style="" class = "link">Cat Food</a></p>
+    <p class = "categoryTitle3"><a href="Cart.php" style="" class = "link">Rabbit Food</a></p>
 </section>
 </body>
 </html>
