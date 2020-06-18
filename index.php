@@ -14,6 +14,7 @@
         <a href="index.php">Home</a>
         <a href="Cart.php">Products</a>
         <a href="aboutus.php">About Us</a>
+        <a href="loginform.php">Login</a>
     </div>
     <div class = "sandwichHolder" onclick="openNav()">
         <div class = "bar"></div>

@@ -297,23 +297,6 @@ section{
     font-family: Calibri;
     height: 60px;
 }
-.homelogin{
-    position: absolute;
-    top: 1%;
-    right: 0.5%;
-    color: whitesmoke;
-    background-color: #FFC300;
-    height: 40px;
-    width: 90px;
-    border-radius: 5px;
-    border: 0;
-    font-family: Calibri;
-    font-weight: bold;
-    opacity: 80%;
-}
-.homelogin:hover{
-    opacity: 100%;
-}
 .loginlogo{
     height: 100px;
     width: 100px;
@@ -362,14 +345,9 @@ section{
 }
 table, th, tr{
     text-align: center;
+    background-color: #efefef
 }
 .title2{
-    text-align: center;
-    color: #66afe9;
-    background-color: #efefef;
-    padding: 2%;
-}
-h2{
     text-align: center;
     color: #66afe9;
     background-color: #efefef;

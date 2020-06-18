@@ -67,6 +67,7 @@ if (isset($_GET["action"])){
         <a href="index.php">Home</a>
         <a href="Cart.php">Products</a>
         <a href="aboutus.php">About Us</a>
+        <a href="loginform.php">Login</a>
     </div>
     <div class = "sandwichHolder" onclick="openNav()">
         <div class = "bar"></div>
@@ -78,7 +79,8 @@ if (isset($_GET["action"])){
 <body>
 
 <div class="container" style="width: 65%">
-    <h2>Shopping Cart</h2>
+    <img class = "loginlogo" src="photos/plogo.png">
+    <p class = "login1logotext">Products</p>
     <?php
     $query = "SELECT * FROM product ORDER BY id ASC ";
     $result = mysqli_query($con,$query);
