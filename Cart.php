@@ -156,6 +156,8 @@ if (isset($_GET["action"])){
     <button class = "pay" onclick="openReceipt()">Pay Now</button>
     <div id="receipt" class="myreceipt">
         <a href="javascript:void(0)" class="closebtn" onclick="closeReceipt()">&times;</a>
+        <img class = "receiptlogo" src="photos/plogo.png">
+        <p class = "receiptlogotext">Cart</p>
         <?php
             if(!empty($_SESSION["cart"])){
                 foreach ($_SESSION["cart"] as $key => $value) {
