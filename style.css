@@ -501,7 +501,7 @@ section{
     width: 100px;
     position: absolute;
     top: 5%;
-    left: 45%;
+    left: 46%;
 }
 .loginlogotext{
     font-family: "Brush Script MT";
@@ -522,8 +522,9 @@ section{
     color: #FFC300;
 }
 .logbutton1{
-    width: 20%;
-    margin-left: 30%;
+    width: 20.5%;
+    margin-left: 40%;
+    margin-top: -10%;
     color: whitesmoke;
     background-color: black;
     border: 0;

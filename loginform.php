@@ -22,7 +22,7 @@
 </header>
 <img class = "lbg" src = "photos/pbg.png">
 <body>
-    <img class = "login1logo" src="photos/plogo.png">
+    <img class = "loginlogo" src="photos/plogo.png">
     <p class = "login1logotext">Login</p>
     <form action = "login.php" method = "post" class = "log">
         <p class = "loginform">Username:</p>
