@@ -27,12 +27,12 @@
 <img class = "logo" src="photos/plogo.png">
 <p class = "logotext">Pet Food Shop</p>
 <section>
-    <div class = "categories"><a href="throwaway/products.html"><img src = "photos/Category1.png" class = "categoryPhotos"></a></div>
-    <div class = "categories"><a href="throwaway/products.html"><img src = "photos/category2.png" class = "categoryPhotos"></a></div>
-    <div class = "categories"><a href = "throwaway/products.html"><img src = "photos/category3.png" class = "categoryPhotos"></a></div>
-    <p class = "categoryTitle1"><a href="throwaway/products.html" class = "link">Dog Food</a></p>
-    <p class = "categoryTitle2"><a href="throwaway/products.html" class = "link">Cat Food</a></p>
-    <p class = "categoryTitle3"><a href="throwaway/products.html" class = "link">Rabbit Food</a></p>
+    <div class = "categories"><a href="Cart.php"><img src = "photos/Category1.png" class = "categoryPhotos"></a></div>
+    <div class = "categories"><a href="Cart.php"><img src = "photos/category2.png" class = "categoryPhotos"></a></div>
+    <div class = "categories"><a href = "Cart.php"><img src = "photos/category3.png" class = "categoryPhotos"></a></div>
+    <p class = "categoryTitle1"><a href="Cart.php" class = "link">Dog Food</a></p>
+    <p class = "categoryTitle2"><a href="Cart.php" class = "link">Cat Food</a></p>
+    <p class = "categoryTitle3"><a href="Cart.php" class = "link">Rabbit Food</a></p>
 </section>
 </body>
 </html>

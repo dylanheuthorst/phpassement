@@ -359,3 +359,29 @@ table th{
 h2{
     height: 200px;
 }
+.myreceipt {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-image: linear-gradient(whitesmoke, white);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.myreceipt .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.pay{
+    width: 100%;
+    background-color: dimgrey;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 24px;
+}

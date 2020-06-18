@@ -6,13 +6,14 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
-function openCart() {
-    document.getElementById("cartnav").style.width = "250px";
+function openReceipt() {
+    document.getElementById("receipt").style.width = "250px";
 }
 
-function closeCart() {
-    document.getElementById("cartnav").style.width = "0";
+function closeReceipt() {
+    document.getElementById("receipt").style.width = "0";
 }
+
 var i = 0;
 var images = [];
 var time = 3000;

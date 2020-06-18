@@ -69,6 +69,13 @@ if (isset($_GET["action"])){
         <a href="aboutus.php">About Us</a>
         <a href="loginform.php">Login</a>
     </div>
+    <div id="receipt" class="myrecepit">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeReceipt()">&times;</a>
+        <a href="index.php">Home</a>
+        <a href="Cart.php">Products</a>
+        <a href="aboutus.php">About Us</a>
+        <a href="loginform.php">Login</a>
+    </div>
     <div class = "sandwichHolder" onclick="openNav()">
         <div class = "bar"></div>
         <div class = "bar"></div>
@@ -153,6 +160,7 @@ if (isset($_GET["action"])){
             ?>
         </table>
     </div>
+    <button class = "pay" onclick="openReceipt()">Pay Now</button>
 
 </div>
 
