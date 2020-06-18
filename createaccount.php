@@ -26,7 +26,7 @@
     <p class = "loginlogotext">Create Acount</p>
     <form action = "createdb.php" method = "post" class = "log">
         <p class = "loginform">Name:</p>
-        <input type = "text" name = "createusername" class = "input">
+        <input type = "text" name = "createname" class = "input">
         <p class = "loginform">Username:</p>
         <input type = "text" name = "createusername" class = "input">
         <p class = "loginform">Email:</p>
