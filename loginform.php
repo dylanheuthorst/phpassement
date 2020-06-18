@@ -29,7 +29,7 @@
         <p class = "loginform">Username:</p>
         <input type = "text" name = "username" class = "input">
         <p class = "loginform">Password:</p>
-        <input type="password" name = "pwd" class = "input">
+        <input type="password" name = "password" class = "input">
         <p class = "loginform"><button class = "logbutton">Login</button></p>
     </form>
     <a href = "createaccount.php"><p class = "loginform"><button class = "logbutton1">Create Account</button></p></a>
