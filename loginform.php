@@ -25,7 +25,7 @@
 <body>
     <img class = "loginlogo" src="photos/plogo.png">
     <p class = "login1logotext">Login</p>
-    <form action = "login.php" method = "post" class = "log">
+    <form action = "login.php" <?php echo $_SERVER['PHP_SELF']; //post request to same page ?> method = "post" class = "log">
         <p class = "loginform">Username:</p>
         <input type = "text" name = "username" class = "input">
         <p class = "loginform">Password:</p>
