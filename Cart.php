@@ -160,8 +160,7 @@ if (isset($_GET["action"])){
             if(!empty($_SESSION["cart"])){
                 foreach ($_SESSION["cart"] as $key => $value) {
                     ?>
-                    <p class="navreceipt"><?php echo $value["item_name"], $value["item_quantity"], $value["product_price"]; ?></p>
-                    }
+                    <p class="navreceipt"><?php echo $value["item_name"]?> x<?php echo $value["item_quantity"]?> $<?php echo $value["product_price"]?></p>
                     <?php
                 }    }
         ?>
