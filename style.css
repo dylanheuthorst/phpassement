@@ -386,10 +386,17 @@ h2{
     font-weight: bold;
     font-size: 24px;
     border: 0;
-    border-radius: 2px;
+    border-radius: 5px;
     height: 50px;
 }
 .navreceipt{
     color: black;
     font-size: 16px;
+    margin-left: 2%;
+    font-weight: 500;
+}
+.receiptPhoto{
+    width: 30px;
+    height: 30px;
+    margin-left: 2%;
 }
