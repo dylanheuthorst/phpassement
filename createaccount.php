@@ -30,7 +30,7 @@
         <p class = "loginform">Username:</p>
         <input type = "text" name = "createusername" class = "input">
         <p class = "loginform">Email:</p>
-        <input type="password" name = "createemail" class = "input">
+        <input type="text" name = "createemail" class = "input">
         <p class = "loginform">Password:</p>
         <input type="password" name = "createpwd" class = "input">
         <p class = "loginform"><button class = "logbutton" value = "insert">Create Account</button></p>
