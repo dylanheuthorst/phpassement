@@ -71,6 +71,7 @@ if (isset($_GET["action"])){
     </div>
     <div id="receipt" class="myreceipt">
         <a href="javascript:void(0)" class="closebtn" onclick="closeReceipt()">&times;</a>
+        <p>Your Total Comes To $ <?php echo number_format($total, 2); ?></p>
     </div>
     <div class = "sandwichHolder" onclick="openNav()">
         <div class = "bar"></div>
