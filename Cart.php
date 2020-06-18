@@ -74,6 +74,7 @@ if (isset($_GET["action"])){
         <div class = "bar"></div>
     </div>
 </head>
+<img class = "bg2" src = "photos/pbg.png">
 <body>
 
 <div class="container" style="width: 65%">
