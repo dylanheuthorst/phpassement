@@ -27,9 +27,9 @@
     <p class = "loginlogotext">Create Acount</p>
     <form action = "createdb.php" method = "post" class = "log">
         <p class = "loginform">Username:</p>
-        <input type = "text" name = "createusername" class = "input">
+        <input type = "text" name = "createusername" class = "input" placeholder="Username">
         <p class = "loginform">Password:</p>
-        <input type="password" name = "createpwd" class = "input">
+        <input type="password" name = "createpwd" class = "input" placeholder="Password">
         <p class = "loginform"><button class = "logbutton" value = "insert">Create Account</button></p>
     </form>
 
