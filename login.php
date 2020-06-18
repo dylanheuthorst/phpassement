@@ -10,18 +10,18 @@ $database = "nocjh6h9cdq7i00a";
 
 $con = new mysqli($host,$user,$password,$database );
 
-$query = "SELECT username, password from login where username=? AND password=? LIMIT 1";
+$query = "SELECT * from login where username='$username'";
 
-$stmt = $con->prepare($query);
-$stmt->bind_param("ss",$username, $password);
-$stmt->execute();
-$stmt->bind_result($username,$password);
-$stmt->store_result();
+$result = $con->query($sql);
 
-if ($stmt->fetch()){
-    echo "Login Successful";
-}else{
-    echo "Login Failed";
+if ($result->num_rows == 1){
+    while ($row = $result->fetch_assoc()) {
+        if ($row["password"] == $password) {
+            echo "Login Successful";
+        } else {
+            echo "Login Failed";
+        }
+    }
 }
 header("refresh:1.5; url=index.php");
 
