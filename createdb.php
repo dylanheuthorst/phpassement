@@ -6,24 +6,16 @@
 
     $con = new mysqli($host,$user,$password,$database );
 
-    if ($con->connect_error){
-        echo $con->connect_error;
-    } else{
-        echo "Connection Created";
-    }
-
-    $createname = $_POST["createname"];
     $createusername = $_POST["createusername"];
-    $createemail = $_POST["createemail"];
     $createpwd = $_POST["createpwd"];
 
-    $sql = "INSERT INTO logins (ClientID,Name,Username,Email,Password) VALUES (0,'$createname','$createusername','$createemail','$createpwd')";
+    $sql = "INSERT INTO logins (ClientID,Username,Password) VALUES (0,'$createusername','$createpwd')";
 
     if (!mysqli_query($con,$sql)){
-        echo "Not Inserted";
+        echo "Somethings Gone Wrong";
     }
     else{
-        echo "Inserted";
+        echo "Account Created";
     }
 
-    header("refresh:2; url=index.php");
+    header("refresh:1.5; url=index.php");

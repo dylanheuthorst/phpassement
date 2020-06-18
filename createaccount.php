@@ -26,12 +26,8 @@
     <img class = "loginlogo" src="photos/plogo.png">
     <p class = "loginlogotext">Create Acount</p>
     <form action = "createdb.php" method = "post" class = "log">
-        <p class = "loginform">Name:</p>
-        <input type = "text" name = "createname" class = "input">
         <p class = "loginform">Username:</p>
         <input type = "text" name = "createusername" class = "input">
-        <p class = "loginform">Email:</p>
-        <input type="text" name = "createemail" class = "input">
         <p class = "loginform">Password:</p>
         <input type="password" name = "createpwd" class = "input">
         <p class = "loginform"><button class = "logbutton" value = "insert">Create Account</button></p>
