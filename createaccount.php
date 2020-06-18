@@ -23,14 +23,17 @@
 <img class = "lbg" src = "photos/pbg.png">
 <body>
     <img class = "loginlogo" src="photos/plogo.png">
-    <p class = "login1logotext">Login</p>
+    <p class = "loginlogotext">Create Acount</p>
     <form action = "login.php" method = "post" class = "log">
+        <p class = "loginform">Name:</p>
+        <input type = "text" name = "createusername" class = "input">
         <p class = "loginform">Username:</p>
-        <input type = "text" name = "username" class = "input">
+        <input type = "text" name = "createusername" class = "input">
+        <p class = "loginform">Email:</p>
+        <input type="password" name = "createemail" class = "input">
         <p class = "loginform">Password:</p>
-        <input type="password" name = "pwd" class = "input">
-        <p class = "loginform"><button class = "logbutton">Login</button></p>
-        <a href = "createaccount.php>"<p class = "loginform"><button class = "logbutton">Create Account</button></p></a>
+        <input type="password" name = "createpwd" class = "input">
+        <p class = "loginform"><button class = "logbutton" value = "insert">Create Account</button></p>
     </form>
 
 </body>
