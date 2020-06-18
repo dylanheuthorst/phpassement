@@ -22,5 +22,4 @@
     } else{
         echo "Inserted";
     }
-
-    body("refresh:2; url=homepage.php");
+    
