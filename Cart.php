@@ -1,7 +1,18 @@
 <?php
 session_start();
 $database_name = "Product_details";
-$con = mysqli_connect("localhost","root","",$database_name);
+$host = "qn66usrj1lwdk1cc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$user = "xavpqyym6459viap";
+$password = "eqvb6ev6yq5rogs3";
+$database = "nocjh6h9cdq7i00a";
+
+$con = new mysqli($host,$user,$password,$database );
+
+if ($con->connect_error){
+    echo $con->connect_error;
+} else{
+    echo "Connection Created";
+}
 
 if (isset($_POST["add"])){
     if (isset($_SESSION["cart"])){
