@@ -160,11 +160,12 @@ if (isset($_GET["action"])){
             if(!empty($_SESSION["cart"])){
                 foreach ($_SESSION["cart"] as $key => $value) {
                     ?>
-                    <p class="navreceipt"><img src="<?php echo $row["image"]; ?>" class="receiptPhoto"><?php echo $value["item_name"]?> x<?php echo $value["item_quantity"]?> $<?php echo $value["product_price"]?></p>
+                    <p class="navreceipt"><img src="<?php echo $value["image"]; ?>" class="receiptPhoto"><?php echo $value["item_name"]?> x<?php echo $value["item_quantity"]?> $<?php echo $value["product_price"]?></p>
                     <?php
                 }    }
         ?>
         <p class="navreceipt">Your Total Comes To $ <?php echo number_format($total, 2); ?></p>
+        <p class="navreceipt">Thank You For Ordering With Us</p>
     </div>
 
 </div>
