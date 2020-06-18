@@ -45,6 +45,7 @@
 }
 *{
     margin: 0;
+    font-family: Calibri;
 }
 .bar{
     width: 35px;
@@ -534,4 +535,29 @@ section{
     font-weight: bold;
     font-family: Calibri;
     height: 60px;
+}
+.product{
+    border: 1px solid #eaeaec;
+    margin: -1px 19px 3px -1px;
+    padding: 10px;
+    text-align: center;
+    background-color: #efefef;
+}
+table, th, tr{
+    text-align: center;
+}
+.title2{
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 2%;
+}
+h2{
+    text-align: center;
+    color: #66afe9;
+    background-color: #efefef;
+    padding: 2%;
+}
+table th{
+    background-color: #efefef;
 }
