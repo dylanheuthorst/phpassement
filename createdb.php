@@ -9,7 +9,7 @@
     $createusername = $_POST["createusername"];
     $createpwd = $_POST["createpwd"];
 
-    $sql = "INSERT INTO login (ClientID,Username,Password) VALUES (0,'$createusername','$createpwd')";
+    $sql = "INSERT INTO login (ID,username,password) VALUES (0,'$createusername','$createpwd')";
 
     if (!mysqli_query($con,$sql)){
         echo "Somethings Gone Wrong";
