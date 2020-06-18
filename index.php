@@ -9,33 +9,14 @@
 </head>
 <section></section>
 <header>
-    <?php
-    include_once "login.php";
-    session_start();
-    if (isset($_SESSION["username"])) { //if login, else show form
-        ?>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.php">Home</a>
-            <a href="Cart.php">Products</a>
-            <a href="aboutus.php">About Us</a>
-            <a href="account.php">Account</a>
-        </div>
-        <?php
-    } else {
-        ?>
-        <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.php">Home</a>
-            <a href="Cart.php">Products</a>
-            <a href="aboutus.php">About Us</a>
-            <a href="loginform.php">Login</a>
-            <a href="createaccount.php">Create Account</a>
-        </div>
-        <?php
-    }
-    ?>
-
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.php">Home</a>
+        <a href="Cart.php">Products</a>
+        <a href="aboutus.php">About Us</a>
+        <a href="loginform.php">Login</a>
+        <a href="createaccount.php">Create Account</a>
+    </div>
     <div class = "sandwichHolder" onclick="openNav()">
         <div class = "bar"></div>
         <div class = "bar"></div>
