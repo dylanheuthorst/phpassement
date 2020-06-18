@@ -25,12 +25,12 @@
 <body>
     <img class = "loginlogo" src="photos/plogo.png">
     <p class = "login1logotext">Login</p>
-    <form action = "login.php" <?php echo $_SERVER['PHP_SELF']; //post request to same page ?> method = "post" class = "log">
+    <form action = "login.php" method = "post" class = "log">
         <p class = "loginform">Username:</p>
-        <input type = "text" name = "username" class = "input">
+        <input type = "text" name = "username" class = "input" placeholder="Username">
         <p class = "loginform">Password:</p>
-        <input type="password" name = "password" class = "input">
-        <p class = "loginform"><button class = "logbutton">Login</button></p>
+        <input type="password" name = "password" class = "input" placeholder="Password">
+        <p class = "loginform"><input type="submit" class = "logbutton" value="Login"></p>
     </form>
 </body>
 
