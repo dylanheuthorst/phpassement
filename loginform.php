@@ -31,7 +31,7 @@
         <input type="password" name = "pwd" class = "input">
         <p class = "loginform"><button class = "logbutton">Login</button></p>
     </form>
-    <a href = "createaccount.php>"<p class = "loginform"><button class = "logbutton">Create Account</button></p></a>
+    <a href = "createaccount.php>"<p class = "loginform"><button class = "logbutton1">Create Account</button></p></a>
 
 </body>
 
