@@ -22,7 +22,7 @@
 </header>
 <img class = "lbg" src = "photos/pbg.png">
 <body>
-    <img class = "loginlogo" src="photos/plogo.png">
+    <img class = "login1logo" src="photos/plogo.png">
     <p class = "login1logotext">Login</p>
     <form action = "login.php" method = "post" class = "log">
         <p class = "loginform">Username:</p>
@@ -30,8 +30,8 @@
         <p class = "loginform">Password:</p>
         <input type="password" name = "pwd" class = "input">
         <p class = "loginform"><button class = "logbutton">Login</button></p>
-        <a href = "createaccount.php>"<p class = "loginform"><button class = "logbutton">Create Account</button></p></a>
     </form>
+    <a href = "createaccount.php>"<p class = "loginform"><button class = "logbutton">Create Account</button></p></a>
 
 </body>
 
