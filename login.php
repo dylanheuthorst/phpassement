@@ -1,7 +1,7 @@
 <?php
 
 $username = $_POST['username'];
-$password = $_POST['password'];
+$pwd = $_POST['password'];
 
 $host = "qn66usrj1lwdk1cc.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 $user = "xavpqyym6459viap";
@@ -16,7 +16,7 @@ $result = $con->query($sql);
 
 if ($result->num_rows == 1){
     while ($row = $result->fetch_assoc()) {
-        if ($row["password"] == $password) {
+        if ($row["password"] == $pwd) {
             echo "Login Successful";
         } else {
             echo "Login Failed";
@@ -24,9 +24,5 @@ if ($result->num_rows == 1){
     }
 }
 header("refresh:1.5; url=index.php");
-
-
-
-
 
 /*http://herokugitphpleisong.herokuapp.com/phpMyAdminDylan/
